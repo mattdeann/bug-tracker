@@ -3,7 +3,7 @@ import { retrieveBugs } from '../dummyBugController';
 
 const slice = createSlice({
   name: "bug",
-  intialState: [],
+  initialState: [],
   reducers: {
     getBugs: state => retrieveBugs(),
     createBugs: (state, action) => {

@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import {signIn} from '../../Controllers/Redux/authSlice';
 
 
-function login() {
+function Login() {
   const dispatch = useDispatch();
 
   // local state using hooks
@@ -37,4 +37,4 @@ function login() {
   )
 }
 
-export default login;
+export default Login;
