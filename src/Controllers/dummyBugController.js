@@ -29,7 +29,7 @@ function retrieveBugs() {
 
   let sorted = data.sort((a, b) => a.priority - b.priority);
 
-
+  return sorted
 }
 
-export default retrieveBugs;
+export { retrieveBugs };
