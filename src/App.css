@@ -1,8 +1,10 @@
 .App {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  
   background-color: #363636;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
 }

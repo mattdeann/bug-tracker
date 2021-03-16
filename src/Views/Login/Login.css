@@ -1,8 +1,12 @@
 .login-page {
   /* replace background with image later */
-  background: blue;
+  align-items: center;
   background-size: cover;
-  
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / -1;
+  height: 80vh;
+  justify-content: center;
 }
 
 .login-panel {
@@ -23,5 +27,5 @@
 }
 
 .login-panel button {
-  
+
 }

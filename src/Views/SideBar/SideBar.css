@@ -1,0 +1,36 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  grid-column: 1 / 2;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sidebar li {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-bottom: 1px groove #ffebd3;
+  transition: all 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #f17105;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+  color: snow;
+}
+
+.sidebar .nav-link {
+  text-decoration: none;
+}
+
+.logout {
+  justify-self: flex-end;
+}
+

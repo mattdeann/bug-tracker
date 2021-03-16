@@ -19,3 +19,8 @@ button:hover {
   background: #9c3829;
   cursor: pointer;
 }
+
+.page-container {
+  display: flex;
+  
+}
