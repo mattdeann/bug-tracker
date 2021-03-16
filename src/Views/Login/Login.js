@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Login.css';
 import { useDispatch } from 'react-redux';
 import {signIn} from '../../Controllers/Redux/authSlice';
 
@@ -29,8 +30,21 @@ function Login() {
     <section className="login-page">
       <form className="login-panel">
         <h1>Login</h1>
-        <input name="name" placeholder="name" onChange={handleChange} value={formInput.name}/>
-        <input name="password" type="password" placeholder="Password" onChange={handleChange} value={formInput.password}/>
+        <input 
+          name="name"
+          className="name input"
+          placeholder="name" 
+          onChange={handleChange} 
+          value={formInput.name}
+        />
+        <input 
+          name="password" 
+          className="password input"
+          type="password" 
+          placeholder="Password" 
+          onChange={handleChange} 
+          value={formInput.password}
+        />
         <button type="submit" onClick={submitForm}>Login</button>
       </form>
     </section>

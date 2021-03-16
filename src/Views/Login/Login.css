@@ -1,0 +1,27 @@
+.login-page {
+  /* replace background with image later */
+  background: blue;
+  background-size: cover;
+  
+}
+
+.login-panel {
+  background-color: #363636;
+  border: 1px solid snow;
+  width: 30vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-panel input {
+  margin: 1rem;
+  width: 10rem;
+  height: 1rem;
+}
+
+.login-panel button {
+  
+}

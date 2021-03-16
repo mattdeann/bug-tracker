@@ -1,1 +1,21 @@
+html {
+  --primary: #363636;
 
+  background-color: var(--primary);
+  color: snow;
+  font-size: 16px;
+}
+
+button {
+  background: #ef6c57;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: snow;
+  font: normal bold 18px "Open Sans", sans-serif;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #9c3829;
+  cursor: pointer;
+}
