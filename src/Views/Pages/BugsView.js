@@ -14,9 +14,9 @@ function BugsView() {
   return (
     <div className="page-container">
       {bugs.map((bug, key) => {
-        <BugCard
+        return <BugCard
           key={key}
-          props={bug}
+          bug={bug}
         />
       })}
     </div>
